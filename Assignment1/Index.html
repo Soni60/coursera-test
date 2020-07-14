@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+        
+    </head>
+
+    <body ng-app="FirstApp"> 
+        <div ng-controller="FirstController">
+        <input type="text" id="box" ng-model="name" ng-blur="ChangeText()"> (Not considering an empty item)
+        </div>
+    </body>
+</html>
